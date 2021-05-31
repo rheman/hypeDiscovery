@@ -1,0 +1,27 @@
+{
+	"name": "pessek/hypediscovery",
+	"type": "elgg-plugin",
+	"description": "Enhanced presence of Elgg sites in the social eco-system",
+	"keywords": [
+		"elgg", "plugin", "social", "sharing"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeDiscovery"
+	},
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
